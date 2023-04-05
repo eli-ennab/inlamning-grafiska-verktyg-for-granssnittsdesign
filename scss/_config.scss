@@ -1,8 +1,30 @@
-// Colors
+/**
+* MSB colors
+*/
+// Main colors
+$msb-red: #CC0000;
+$msb-purple: #822757;
+$msb-dark-gray: #6F6E67;
+$msb-light-gray: #E5E5E2;
+$msb-icons: #fafaf9;
 
-// Fonts
+// Background colors
+$white: #f0f0f0;
+$cool-gray-1: #E4E4E1;
+$cool-gray-11: #4A4944;
 
-// Media Queries
+/**
+* Fonts
+*/
+// Poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+// Open sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,400;1,600&display=swap');
+
+/**
+* Media queries
+*/
 @mixin respond($breakpoint) {
     @if $breakpoint == largest {
       @media (min-width: 1300px) { @content };
