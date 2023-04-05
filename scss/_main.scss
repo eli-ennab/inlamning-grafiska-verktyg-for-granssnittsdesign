@@ -2,11 +2,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-}
 
-#cta-button {
-    position: absolute;
-    top: 50%;
-    background-color: $msb-red;
-    cursor: pointer;
+    #cta-button {
+        position: absolute;
+        top: 40%;
+        background-color: $msb-red;
+        cursor: pointer;
+    }
 }
