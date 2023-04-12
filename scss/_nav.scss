@@ -1,0 +1,50 @@
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+    #logo {
+        margin-left: 10px;
+    }
+
+    p-menu,
+    p-search {
+        font-size: 16px;
+    }
+
+    i {
+        margin-right: 10px;
+    }
+
+    #navigation-options {
+        display: flex;
+        justify-content: space-evenly;
+        width: 200px;
+        padding-right: 10px;
+    }
+}
+
+#location {
+    background-color: $msb-light-gray;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 30px;
+
+    p {
+        font-size: 16px;
+        margin: 0;
+        margin-left: 8px;
+    }
+
+    i {
+        margin-left: 8px;
+    }
+}
+
+#logo {
+    padding: 10px;
+}
