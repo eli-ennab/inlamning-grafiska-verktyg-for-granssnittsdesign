@@ -75,3 +75,24 @@
     padding: 20px 15px 50px 15px;
 }
 
+/**
+* Form
+*/
+#form-content {
+    margin: 20px;
+}
+
+#last-reviewed {
+    background-color: $cool-gray-11;
+    color: white;
+    width: 350px;
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+
+    .review-text {
+        display: flex;
+        margin: 0;
+        padding: 10px;
+        justify-content: center;
+    }
+}
