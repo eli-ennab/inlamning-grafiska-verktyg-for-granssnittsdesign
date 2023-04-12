@@ -27,12 +27,22 @@
 #image-container #cta-button:hover {
     background-color: $msb-hover;
     color: black;
-  }
+}
 
-#report-container {
+/**
+* About report
+*/
+#about-report-container {
     border: 1px solid $cool-gray-1;
     margin: 15px;
         h3 {
             background-color: $cool-gray-1;
         }
+}
+
+/**
+* About MSB
+*/
+li {
+    list-style-type: none;
 }
