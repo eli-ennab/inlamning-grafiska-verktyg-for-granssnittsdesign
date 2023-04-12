@@ -38,16 +38,16 @@
             </a>
 
             <i class="fa-solid fa-magnifying-glass"></i>
-            <p>Sök</p>
+            <p class="p-search">Sök</p>
             <i class="fa-solid fa-bars"></i>
-            <p>Meny</p>
+            <p class="p-menu">Meny</p>
         </nav>
 
         <nav id="location">
-            <p>Du är här</p>
+            <p class="p-location">Du är här</p>
             <i class="fa-solid fa-house"></i>
             <i class="fa-solid fa-chevron-right"></i>
-            <p>Trädsäkerhetsanmälan</p>
+            <p class="p-location">Trädsäkerhetsanmälan</p>
         </nav>
     </header>
 
@@ -61,18 +61,24 @@
 
         <div id="main-content-info">
             <h1>Anmäl farliga träd</h1>
-            <p>Här har vi samlat information om hur du kan anmäla farliga träd som riskerar att falla och orsaka olyckor, hindra trafik och stoppa framkomlighet.</p>
+            <p class="info-text">Här har vi samlat information om hur du kan anmäla farliga träd som riskerar att falla och orsaka olyckor, hindra trafik och stoppa framkomlighet.</p>
         </div>
 
         <div id="about-report-container">
             <h2>Så här fungerar anmälan</h2>
-            <i class="fa-solid fa-chevron-right"></i>
-            <p>För att anmäla farliga träd kan du skicka in en skriftlig anmälan till MSB ovan. Var noga med att ange den exakta platsen och beskriva vad som gör trädet farligt, inklusive dess tillstånd och vilken typ av fara det utgör. Ange också ditt namn, kontaktinformation och eventuella önskemål. Efter anmälan kommer en inspektion att utföras och åtgärder vidtas beroende på bedömningen. Följ de gällande riktlinjerna och samarbeta med myndigheterna för att lösa situationen säkert.</p>
-            <h2>Välbesökta sidor</h2>
+            <p class="info-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                För att anmäla farliga träd kan du skicka in en skriftlig anmälan till MSB ovan. Var noga med att ange den exakta platsen och beskriva vad som gör trädet farligt, inklusive dess tillstånd och vilken typ av fara det utgör. Ange också ditt namn, kontaktinformation och eventuella önskemål. Efter anmälan kommer en inspektion att utföras och åtgärder vidtas beroende på bedömningen. Följ de gällande riktlinjerna och samarbeta med myndigheterna för att lösa situationen säkert.</p>
+            
+            <div id="recommended-sites">
+                <h3>Välbesökta sidor</h3>
+                <div id="sites-line"></div>
+            </div>
             <i class="fa-solid fa-arrow-right"></i>
-            <p>Grönområden och parker</p>
+            <a href="">Grönområden och parker</a>
+            <br>
             <i class="fa-solid fa-arrow-right"></i>
-            <p>Säkerhet och trygghet</p>
+            <a href="">Säkerhet och trygghet</a>
         </div>
 
         <div id="msb-contacts" class="row">
@@ -172,6 +178,11 @@
                         <a href="http://www.youtube.com/msb" target="_blank" title="YouTube">YouTube</a>
                     </li>
                 </ul>
+
+                <button id="social-media-button" class="btn">
+                    Sociala medier
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
             </div>
     </main>
 
