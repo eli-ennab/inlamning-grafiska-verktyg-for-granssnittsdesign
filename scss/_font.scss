@@ -1,0 +1,66 @@
+h1 {
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.info-text {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+nav p {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.p-search {
+    text-transform: uppercase;
+}
+
+nav .p-location {
+    font-size: 11px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+main a {
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: $msb-purple;
+}
+
+main a:hover {
+    color: $msb-a-tag-hover;
+}
+
+footer a {
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+footer a:hover {
+    color: $msb-a-tag-hover;
+}
+
+.btn {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
