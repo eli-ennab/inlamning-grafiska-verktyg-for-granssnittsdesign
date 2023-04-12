@@ -11,22 +11,8 @@
     }
 }
 
-#image-container #cta-button {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: $msb-red;
-    color: white;
-    padding: 12px 24px;
-    cursor: pointer;
-    border-radius: 25px;
-}
-
-#image-container #cta-button:hover {
-    background-color: $msb-hover;
-    color: black;
+#main-content-info {
+    margin: 8px;
 }
 
 /**
@@ -35,14 +21,57 @@
 #about-report-container {
     border: 1px solid $cool-gray-1;
     margin: 15px;
-        h3 {
+
+        h2 {
             background-color: $cool-gray-1;
+            padding-left: 8px;
+        }
+
+        h3 {
+            font-size: 11px;
+            text-transform: uppercase;
+            margin: 0;
+            margin-left: 8px;
+        }
+
+        .info-text {
+            padding-left: 4px;
+        }
+
+        a {
+            padding-left: 8px;
+            font-size: 16px;
+        }
+
+        i {
+            padding: 4px;
+            margin-left: 4px;
+        }
+
+        #recommended-sites {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            #sites-line {
+                border: 1px solid rgb(0, 0, 0);
+                width: 50%;
+                height: 1px;
+                margin-left: 20px;
+            }
         }
 }
 
 /**
 * About MSB
 */
-li {
+#about-msb li {
     list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: -30px;
 }
+
+#about-msb {
+    padding: 20px 15px 50px 15px;
+}
+
