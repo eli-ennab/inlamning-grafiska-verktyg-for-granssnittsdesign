@@ -1,0 +1,34 @@
+
+#cta-button {
+    text-transform: uppercase;
+}
+
+#social-media-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    color: $msb-purple;
+    border: 1px solid black;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#image-container #cta-button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: $msb-red;
+    color: white;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#image-container #cta-button:hover {
+    background-color: $msb-button-hover;
+    color: black;
+}
