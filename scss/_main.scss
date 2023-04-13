@@ -1,5 +1,5 @@
 /**
-* CTA (image and button)
+* CTA (image and button) Section
 */
 #image-container {
     position: relative;
@@ -16,7 +16,7 @@
 }
 
 /**
-* About report
+* About treefalling-report Section
 */
 #about-report-container {
     border: 1px solid $cool-gray-1;
@@ -62,8 +62,23 @@
         }
 }
 
+/*
+* MSB Contacts Section
+*/
+#msb-contacts {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px 40px 20px;
+
+    #contact-1,
+    #contact-2 {
+        width: 300px;
+        margin: 40px 20px 40px 20px;  
+    }
+}
+
 /**
-* About MSB
+* About MSB Section
 */
 #about-msb {
     margin: 40px 20px 40px 20px;
@@ -76,26 +91,4 @@
 #about-msb li {
     margin-bottom: 10px;
     margin-left: -30px;
-}
-
-/**
-* Form
-*/
-#form-content {
-    margin: 20px;
-}
-
-#last-reviewed {
-    background-color: $cool-gray-11;
-    color: white;
-    width: 80%;
-    margin: 10%;
-    padding: 10px;
-
-    .review-text {
-        display: flex;
-        margin: 0;
-        padding: 10px;
-        justify-content: center;
-    }
 }
