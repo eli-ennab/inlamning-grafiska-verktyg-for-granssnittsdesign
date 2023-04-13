@@ -60,11 +60,23 @@
     <!-- main -->
     <main>
 
+        <div id="confirmation-container" class="hide">
+            <h2>Din anmälan är gjord!</h2>
+            <p class="info-text">
+                Tack för att du har gjort en trädsäkerhetsanmälan.
+            </p>
+
+            <button id="return-btn" class="btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                Återgå till sidan
+            </button>
+        </div>
+
         <div id="main-content">
 
             <div id="image-container">
                 <img id="main-image" class="image-fluid" src="/annie-spratt-8qzB8P3KXWQ-unsplash.jpg" alt="Fallna träd">
-                <button id="cta-button" class="btn">Anmäl farliga träd</button>
+                <button id="cta-btn" class="btn">Anmäl farliga träd</button>
             </div>
 
             <div id="main-content-info">
@@ -200,7 +212,7 @@
                         </li>
                     </ul>
 
-                    <button id="social-media-button" class="btn">
+                    <button id="social-media-btn" class="btn">
                         Sociala medier
                         <i class="fa-solid fa-arrow-right"></i>
                     </button>
@@ -245,7 +257,7 @@
                 <h3>Ytterligare information</h3>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="" id="" value="option1" checked>
+                    <input class="form-check-input" type="radio" name="" id="" value="option1">
                     <label class="form-check-label" for="">
                     Nära gångväg, gata eller väg
                     </label>
@@ -265,7 +277,7 @@
                     </label>
                 </div>
 
-                <button type="submit" id="form-btn" class="btn">Skicka</button>
+                <button type="submit" id="submit-form-btn" class="btn">Skicka</button>
             </div>
         </form>
 

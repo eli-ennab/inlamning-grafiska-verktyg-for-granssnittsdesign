@@ -1,9 +1,12 @@
 /**
  * Queries
  */
-const ctaBtn = document.querySelector('#cta-button') as HTMLButtonElement
+const ctaBtn = document.querySelector('#cta-btn') as HTMLButtonElement
+const formBtn = document.querySelector('#submit-form-btn') as HTMLButtonElement
+const returnBtn = document.querySelector('#return-btn') as HTMLButtonElement
 const mainContent = document.querySelector('#main-content') as HTMLDivElement
 const formContent = document.querySelector('#form-content') as HTMLDivElement
+const confirmationContent = document.querySelector('#confirmation-container') as HTMLDivElement
 
 /**
  * Show element
@@ -27,4 +30,22 @@ ctaBtn!.addEventListener('click', e => {
 
   hideElement(mainContent)
   showElement(formContent)
+})
+
+/**
+ * Submit form Button Event 
+ */
+formBtn!.addEventListener('click', e => {
+  e.preventDefault()
+
+  hideElement(formContent)
+  hideElement(mainContent)
+  showElement(confirmationContent)
+})
+
+returnBtn!.addEventListener('click', e => {
+  e.preventDefault()
+
+  hideElement(confirmationContent)
+  showElement(mainContent)
 })
