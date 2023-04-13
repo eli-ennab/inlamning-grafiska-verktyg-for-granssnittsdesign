@@ -2,6 +2,20 @@
     background-color: $cool-gray-11;
     color: white;
     padding: 40px 20px 100px 20px;
+
+        h2 {
+            padding: 10px 0px 10px 0px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+
+        p {
+            padding-bottom: 10px;
+            font-weight: 300;
+        }
 }
 
 #footer-line {
@@ -15,3 +29,4 @@
 #slogan-container {
     margin: 20px 20px 20px 20px;
 }
+
