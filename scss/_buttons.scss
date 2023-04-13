@@ -1,10 +1,10 @@
-
-#cta-button {
+#cta-btn {
     text-transform: uppercase;
     width: 300px;
 }
 
-#social-media-button {
+#social-media-btn,
+#return-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +16,7 @@
     border-radius: 25px;
 }
 
-#form-btn {
+#submit-form-btn {
     display: flex;
     justify-content: center;
     background-color: $msb-purple;
@@ -27,7 +27,7 @@
     border-radius: 25px; 
 }
 
-#image-container #cta-button {
+#image-container #cta-btn {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -40,7 +40,7 @@
     border-radius: 25px;
 }
 
-#image-container #cta-button:hover {
-    background-color: $msb-button-hover;
+#image-container #cta-btn:hover {
+    background-color: $msb-btn-hover;
     color: black;
 }
