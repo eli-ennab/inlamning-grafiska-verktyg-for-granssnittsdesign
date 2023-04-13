@@ -1,8 +1,28 @@
 /**
 * Form
 */
-#form-content {
-    margin: 20px;
+#report-form {
+    margin: 40px 20px 40px 20px;
+
+        h2,
+        h3 {
+            padding: 10px 0px 10px 0px;
+            margin: 0;
+        }
+
+        p.info-text {
+            padding-bottom: 20px; 
+        }
+
+        label {
+            padding-bottom: 10px;
+        }
+
+        .form-control {
+            margin-bottom: 20px;
+            border-radius: 0;
+            border: 1px solid $msb-light-gray;
+        }
 }
 
 #last-reviewed {
