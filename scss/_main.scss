@@ -72,14 +72,11 @@
     margin: 40px 0px 40px 0px;
 
     #msb-circle-diagram {
-        width: 300px;
+        width: 100%;
+        padding: 10px;
 
         @media screen and (min-width: 768px) {
-            width: 500px;
-        }
-
-        @media screen and (min-width: 1024px) {
-            width: 600px;
+            width: 768px;
         }
     }
 }
@@ -102,6 +99,10 @@
     #contact-2 {
         width: 300px;
         margin: 40px 20px 40px 20px;  
+    }
+
+    p {
+        margin-bottom: 5px;
     }
 
     .msb-contacts-background {
