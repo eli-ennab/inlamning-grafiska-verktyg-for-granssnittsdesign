@@ -63,6 +63,27 @@
         }
 }
 
+/**
+* MSB Diagram Section
+*/
+#msb-graphics-report {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 40px 0px;
+
+    #msb-circle-diagram {
+        width: 300px;
+
+        @media screen and (min-width: 768px) {
+            width: 500px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            width: 600px;
+        }
+    }
+}
+
 /*
 * MSB Contacts Section
 */
