@@ -1,6 +1,6 @@
 #msb-footer {
     background-color: $msb-light-gray;
-    padding: 40px 20px 0px 20px;
+    padding: 40px 0px 0px 0px;
 
         a {
             color: black;
@@ -35,9 +35,19 @@
 
 #slogan-container {
     margin: 20px 20px 20px 20px;
+
+    #msb-slogan {
+        font-size: 32px;
+        font-weight: 600;
+    }
 }
 
-#msb-footer-graphics {
-    width: 100vw;
+#msb-footer-image {
+    display: flex;
+    justify-content: flex-end;
+        #msb-footer-graphics {
+            width: 80vw;
+            max-width: 800px;
+        }
 }
 
