@@ -1,14 +1,12 @@
 /**
 * CTA (image and button) Section
 */
-#image-container {
-    position: relative;
-    width: 100%;
-
-    #main-image {
-        max-width: 100%;
-        height: auto;
-    }
+#hero {
+	background: url('/hero_trees.jpg');
+    height: 450px;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
 }
 
 #main-content-info {

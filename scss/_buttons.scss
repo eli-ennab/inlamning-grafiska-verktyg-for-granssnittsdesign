@@ -1,5 +1,8 @@
 #cta-btn {
     text-transform: uppercase;
+    border-radius: 25px;
+    background-color: $msb-red;
+    color: white;
     width: 300px;
 }
 
@@ -27,9 +30,9 @@
     border-radius: 25px; 
 }
 
-#image-container #cta-btn {
+#hero #cta-btn {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
