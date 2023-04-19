@@ -241,7 +241,7 @@
 
                 <h2>Kontaktuppgifter</h2>
 
-                <div class="form-group"></div>
+                <div class="form-group">
                     <label for="first-name">Förnamn</label>
                     <input type="text" class="form-control" id="" placeholder="Fyll i ditt förnamn">
 
@@ -256,77 +256,80 @@
 
                     <h2>Ärendebeskrivning</h2>
 
-                <p class="info-text">
-                    Det är här som du beskriver ärendet så utförligt som möjligt. Var noga med att ange den exakta platsen och beskriva vad som gör trädet farligt, inklusive dess tillstånd och vilken typ av fara det utgör.
-                </p>
+                    <p class="info-text">
+                        Det är här som du beskriver ärendet så utförligt som möjligt. Var noga med att ange den exakta platsen och beskriva vad som gör trädet farligt, inklusive dess tillstånd och vilken typ av fara det utgör.
+                    </p>
 
-                <div class="form-group">
-                    <label for="description-of-report">Textfält</label>
-                    <textarea class="form-control" id="" rows="3" placeholder="Fyll i din anmälan"></textarea>
+                        <label for="description-of-report">Textfält</label>
+                        <textarea class="form-control" id="" rows="3" placeholder="Fyll i din anmälan"></textarea>
+                    </div>
+
+                    <h3>Ytterligare information</h3>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="" id="" value="option1" checked>
+                        <label class="form-check-label" for="">
+                        Nära gångväg, gata eller väg
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="" id="" value="option2">
+                        <label class="form-check-label" for="">
+                        Nära elledning eller annat kraftverk
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="" id="" value="option3">
+                        <label class="form-check-label" for="">
+                        Övrigt/Annat/Vet ej
+                        </label>
+                    </div>
+
+                    <button type="submit" id="submit-form-btn" class="btn">Skicka</button>
                 </div>
-
-                <h3>Ytterligare information</h3>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="" id="" value="option1" checked>
-                    <label class="form-check-label" for="">
-                    Nära gångväg, gata eller väg
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="" id="" value="option2">
-                    <label class="form-check-label" for="">
-                    Nära elledning eller annat kraftverk
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="" id="" value="option3">
-                    <label class="form-check-label" for="">
-                    Övrigt/Annat/Vet ej
-                    </label>
-                </div>
-
-                <button type="submit" id="submit-form-btn" class="btn">Skicka</button>
-            </div>
-        </form>
-
-            <div id="last-reviewed">
-                <p class="review-text">
-                    Senast granskad: 12 april 2023
-                </p>
-            </div>
+            </form>
         </div>
     </main>
 
     <!-- footer -->
-    <footer id="msb-footer" class="">
-        <div id="msb-footer-logo" class="col-12 col-md-4">
-            <a class="" href="#">
-                <img id="logo" src="/msb_logotyp_svensk.png" height="122" alt="MSB Logotyp">
-            </a>
-        </div>
-        <div id="msb-contact-us" class="col-12 col-md-8">
-            <h2>Kontakta MSB</h2>
-            <h3>Telefonnummer</h3>
-            <p>0771-240 240</p>
-            <h3>E-post</h3>
-            <p>registrator@msb.se</p>
-            <h3>Postadress</h3>
-            <p>651 81 Karlstad</p>
-            <h3>Organisationsnummer</h3>
-            <p>202100-5984</p>
+    <footer id="msb-footer">
+        <div id="about-msb" class="row">
 
-            <h2>Andra kontaktvägar</h2>
-            <ul>
-                <li>
-                    <a href="">Press</a>
-                </li>
-                <li>
-                    <a href="">Besöksadresser och öppettider</a>
-                </li>
-            </ul>
+            <div id="msb-footer-logo" class="col-12 col-md-6 col-lg-3">
+                <a class="" href="#">
+                    <img id="logo" src="/msb_logotyp_svensk.png" height="122" alt="MSB Logotyp">
+                </a>
+            </div>
+
+            <div id="msb-contact-us-1" class="col-12 col-md-6 col-lg-3">
+                <h2>Kontakta MSB</h2>
+                <h3>Telefonnummer</h3>
+                <p>0771-240 240</p>
+                <h3>E-post</h3>
+                <p>registrator@msb.se</p>
+            </div>
+
+            <div id="msb-contact-us-2" class="col-12 col-md-6 col-lg-3">
+                <h3>Postadress</h3>
+                <p>651 81 Karlstad</p>
+                <h3>Organisationsnummer</h3>
+                <p>202100-5984</p>
+            </div>
+
+            <div id="msb-visit-us" class="col-12 col-md-6 col-lg-3">
+                <h2>Andra kontaktvägar</h2>
+                <ul>
+                    <li>
+                        <a href="">Press</a>
+                    </li>
+                    <li>
+                        <a href="">Besöksadresser och öppettider</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
             <div id="footer-line"></div>
 
@@ -335,7 +338,9 @@
                     Ett säkrare samhälle i en föränderlig värld
                 </p>
             </div>
+        </div>
 
+        <div id="msb-footer-image">
             <img id="msb-footer-graphics" src="/graphics_lines.png" alt="Grafiska linjer">
         </div>
     </footer>

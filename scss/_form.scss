@@ -24,18 +24,3 @@
             border: 1px solid $msb-light-gray;
         }
 }
-
-#last-reviewed {
-    background-color: $msb-dark-gray;
-    color: white;
-    width: 80%;
-    margin: 10%;
-    padding: 10px;
-
-    .review-text {
-        display: flex;
-        margin: 0;
-        padding: 10px;
-        justify-content: center;
-    }
-}
