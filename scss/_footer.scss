@@ -1,7 +1,10 @@
 #msb-footer {
-    background-color: $cool-gray-11;
-    color: white;
-    padding: 40px 20px 100px 20px;
+    background-color: $msb-light-gray;
+    padding: 40px 20px 0px 20px;
+
+        a {
+            color: black;
+        }
 
         h2 {
             margin: 10px 0px 10px 0px;
@@ -23,7 +26,7 @@
 }
 
 #footer-line {
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 10px;
@@ -32,5 +35,9 @@
 
 #slogan-container {
     margin: 20px 20px 20px 20px;
+}
+
+#msb-footer-graphics {
+    width: 100vw;
 }
 
