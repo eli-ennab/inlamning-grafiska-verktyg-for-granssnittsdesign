@@ -16,11 +16,37 @@
         margin-right: 10px;
     }
 
-    #navigation-options {
+    #mobile-navigation-options {
         display: flex;
         justify-content: space-evenly;
         width: 200px;
         padding-right: 10px;
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    #larger-screens-navigation-options {
+        display: flex;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    #larger-screens-navigation-options ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 60vw;
+    }
+
+    #larger-screens-navigation-options li {
+        display: flex;
+        align-items: center;
     }
 }
 
