@@ -241,7 +241,7 @@
         </div>
 
         <div id="form-content" class="hide">
-            <form id="report-form">
+            <div id="report-form">
 
                 <h2>Trädsäkerhetsanmälan</h2>
                 <p class="info-text">
@@ -270,14 +270,14 @@
                     </p>
 
                         <label for="description-of-report">Textfält</label>
-                        <textarea class="form-control" rows="3" placeholder="Fyll i din anmälan"></textarea>
+                        <textarea class="form-control" rows="3" placeholder="Fyll i din anmälan" id="description-of-report"></textarea>
                     </div>
 
                     <h3>Ytterligare information</h3>
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" value="option1" disabled>
-                        <label class="form-check-label" for="">
+                        <label class="form-check-label">
                         Nära gångväg, gata eller väg
                         </label>
                     </div>
@@ -291,15 +291,14 @@
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" value="option3" checked>
-                        <label class="form-check-label" for="">
+                        <label class="form-check-label">
                         Övrigt/Annat/Vet ej
                         </label>
                     </div>
 
                     <button type="submit" id="submit-form-btn" class="btn">Skicka</button>
                 </div>
-            </form>
-        </div>
+            </div>
     </main>
 
     <!-- footer -->
