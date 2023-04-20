@@ -16,9 +16,9 @@
     border-radius: 25px;
 }
 
-#image-container #cta-btn:hover {
+#hero > #cta-btn:hover {
     background-color: $msb-btn-hover;
-    color: black;
+    color: white;
 }
 
 #social-media-btn,
@@ -32,6 +32,13 @@
     padding: 12px 24px;
     cursor: pointer;
     border-radius: 25px;
+}
+
+#social-media-btn:hover,
+#return-btn:hover,
+#submit-form-btn:hover {
+    background-color: $msb-light-gray;
+    color: black;
 }
 
 #submit-form-btn {
