@@ -1,9 +1,21 @@
-#cta-btn {
+#hero #cta-btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
     text-transform: uppercase;
-    border-radius: 25px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     background-color: $msb-red;
     color: white;
-    width: 300px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#image-container #cta-btn:hover {
+    background-color: $msb-btn-hover;
+    color: black;
 }
 
 #social-media-btn,
@@ -24,26 +36,17 @@
     justify-content: center;
     background-color: $msb-purple;
     color: white;
-    width: 300px;
+    width: 200px;
     padding: 12px 24px;
-    margin: 20px;
+    margin-top: 20px;
     border-radius: 25px; 
 }
 
-#hero #cta-btn {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: $msb-red;
-    color: white;
-    padding: 12px 24px;
-    cursor: pointer;
-    border-radius: 25px;
+.form-check-input:checked {
+    background-color: $msb-purple;
+    border-color: $msb-purple;
 }
 
-#image-container #cta-btn:hover {
-    background-color: $msb-btn-hover;
-    color: black;
+.form-control:focus {
+    box-shadow: none;
 }

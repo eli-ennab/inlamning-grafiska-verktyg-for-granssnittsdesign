@@ -4,6 +4,12 @@
 #report-form {
     margin: 40px 20px 40px 20px;
 
+    @media screen and (min-width: 768px) {
+        width: 60vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
         h2,
         h3 {
             padding: 10px 0px 10px 0px;
