@@ -49,3 +49,5 @@ returnBtn!.addEventListener('click', e => {
   hideElement(confirmationContent)
   showElement(mainContent)
 })
+
+export {}
